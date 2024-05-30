@@ -1,0 +1,64 @@
+#pic{
+    height: 35vh;
+    width: 100%;
+    background-color: #e0e1dd;
+    display: flex;
+    align-items: center;
+}
+
+.pic1{
+    height: 8vh;
+    border-radius: 50%;
+    padding-top: 10%;
+}
+
+.pic2{
+    height: 10vh;
+}
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a{
+    color: aliceblue;
+}
+
+.nav{
+    background-color: #003049;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+#home{
+    background-color: #003049;
+    color: white;
+    position: relative;
+    bottom: 22px;
+}
+
+#linkedin{
+    height: 5%;
+}
+
+#github{
+    height: 5%;
+    
+}
+
+#contacts{
+    background-color: blue;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
