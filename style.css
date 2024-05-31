@@ -6,6 +6,10 @@ body{
     height: 100%;
 }
 
+.h{
+    text-align: center;
+}
+
 #pic{
     height: 35vh;
     width: 100%;
@@ -39,46 +43,54 @@ body{
     color: white;
   }  
 
+.bb:hover{
+    animation :anime 3s infinite ease-in-out alternate 3s;
+}
+
 .navigation{
     position: fixed;
-    /* top: 10px; */
 }
 
 #home{
     background-color: black;
     color: aliceblue;
-    position: relative;
-    bottom: 25px;
 }
 
 
 #skills{
-    background-color: #F9E8D4;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #academics{
-    background-color: #F9E8D4;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
+
+/* .intern{
+    background-color: #F9E8D4;   
+} */
 
 #internships{
     background-color: #F9E8D4;
 }
 
 .container1{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #F9E8D4;
-    position: relative;
-    bottom: 44px;
 }
+
 
 .container{
     background-color: #e0e1dd;
-    position: relative;
-    bottom: 64px;
 }
 
 footer{
-    /* bottom: 65px; */
-    /* position: relative; */
     display: flex;
     justify-content: space-evenly;
     background-color: #F9E8D4;
