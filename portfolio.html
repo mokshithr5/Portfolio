@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
+
     <div class="nav">
-        <a href="#home">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#academics">Academics</a>
-        <a href="#projects">Projects</a>
-        <a href="#internships">Internships</a>
-        <a href="#contacts">Contact me</a>
+        <a class="aa" href="#home">Home</a>
+        <a class="aa" href="#skills">Skills</a>
+        <a class="aa" href="#academics">Academics</a>
+        <a class="aa" href="#projects">Projects</a>
+        <a class="aa" href="#internships">Internships</a>
+        <a class="aa" href="#contacts">Contact Me</a>
     </div>
     
     <div id="pic">
@@ -24,17 +25,14 @@
         <h1>About me</h1>
         <strong>Name: </strong>R Mokshith
         <br>
-        <strong>DOB: </strong>05/04/2001
-        <br>
         <strong>Contact No: </strong>9353736310
 
         <h3>Career Objective:</h3>
-        As a recent graduate with a passion for creating delightful user experiences, I am eager to embark on my journey as a Software Engineer. Armed with a solid foundation in HTML, CSS, and JavaScript, gained through hands-on projects and coursework, I am excited to apply my skills in a professional setting.
+        Motivated and detail-oriented Computer Science graduate with a strong foundation in both front-end and back-end technologies, seeking an entry-level Full-Stack Developer position to leverage my skills in JavaScript, React, Node.js, and databases. Eager to contribute to innovative projects and grow within a dynamic tech team.
     </div>
-    <hr>
-
+<div class="container1">
     <div id="skills">
-        <h2>Skill-sets</h2>
+        <h2>Skill-Sets</h2>
         <ul>
             <li>Java 3/10</li>
             <li>Sql 3/10</li>
@@ -44,7 +42,6 @@
             <li>Javascript 1/10</li>
         </ul>
     </div>
-    <hr>
     
     <div id="academics">
         <h2>Academics</h2>
@@ -81,10 +78,9 @@
     </div>
 
     <div id="internships">
-        <hr>
         <h1>Internships and certificates</h1>
         <dl>
-            <dt><strong>Kodnest</strong> </dt>
+            <dt><strong>Kodnest(February 2024 - June 2024)</strong> </dt>
             <dd>Java Full-stack Development Internship.</dd>
         </dl>
         <dl>
@@ -95,52 +91,53 @@
                 Utilized CSS techniques to address and rectify issues concerning the mobile view, ensuring a seamless and responsive layout for a dynamic application.</dd>
         </dl>    
     </div>
-    <hr>
+</div>
 
-    <div id="projects">
-        <h2>Projects</h2>
-        <dl>
-            <dt><strong>Resume Builder</strong></dt>
-            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium quaerat mollitia voluptate magni quia minima. Facere maxime voluptates illum ex, quas ullam dolorem inventore officia id reiciendis temporibus eum!</dd>
-        </dl>
-        <dl>
-            <dt><strong>Disease and Drug prediction using machine learning Algorithms</strong></dt>
-            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium quaerat mollitia voluptate magni quia minima. Facere maxime voluptates illum ex, quas ullam dolorem inventore officia id reiciendis temporibus eum!</dd>
-        </dl>
-        <dl>
-            <dt><strong>Credit card fraudulent detection</strong></dt>
-            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium quaerat mollitia voluptate magni quia minima. Facere maxime voluptates illum ex, quas ullam dolorem inventore officia id reiciendis temporibus eum!</dd>
-        </dl>
-    </div>
-    <hr>
 
-    <div id="contacts">
-        <form>
-            <h3>Contact me</h3>
-            <label>Email</label>
-            <input type="text">
+    <div class="container">
+
+        <div id="projects">
+            <h2>Projects</h2>
+            <dl>
+                <dt><strong>Disease and Drug prediction using machine learning Algorithms</strong></dt>
+                <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium quaerat mollitia voluptate magni quia minima. Facere maxime voluptates illum ex, quas ullam dolorem inventore officia id reiciendis temporibus eum!</dd>
+            </dl>
+            <dl>
+                <dt><strong>Credit card fraudulent detection</strong></dt>
+                <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium quaerat mollitia voluptate magni quia minima. Facere maxime voluptates illum ex, quas ullam dolorem inventore officia id reiciendis temporibus eum!</dd>
+            </dl>
+        </div>
+        
+        <div id="contacts">
+            <form>
+                <h3>GET IN TOUCH</h3>
+                <label>Name</label>
+                <input type="text">
+                <br><br>
+                <label>Email</label>
+                <input type="text">
+                <br><br>
+                <label>Query</label>
+                <input type="text">
+                <br><br>
+                <button id="button">SEND MESSAGE</button>
+                <!-- <input type="submit"> -->
+            </form>
             <br><br>
-            <label>Query</label>
-            <input type="text">
-            <br><br>
-            <input type="submit">
-        </form>
-        <br><br>
+        </div>
     </div>
     
-    <footer>
-        <div id="linkedin">
+    <footer class="container3">
+        <div>
 
             <a id="linkedin" href="https://www.linkedin.com/in/mokshith-r/" target="_blank">
-                <img class="pic1" src="images.png">
+                <i class="fa-brands fa-linkedin"></i>
             </a>
-        </div>
-
-        <!-- <br><br> -->
+        </div>  
         
-        <div id="github">
+        <div>
         <a  href="https://github.com/mokshithr5" target="_blank">
-            <img class="pic2" src="GitHub-Mark-ea2971cee799.png">
+            <i class="fa-brands fa-github"></i>
         </a>
         </div>
     </footer>

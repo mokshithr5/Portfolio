@@ -1,19 +1,9 @@
 #pic{
     height: 35vh;
     width: 100%;
-    background-color: #e0e1dd;
+    background-color: black;
     display: flex;
     align-items: center;
-}
-
-.pic1{
-    height: 8vh;
-    border-radius: 50%;
-    padding-top: 10%;
-}
-
-.pic2{
-    height: 10vh;
 }
 
 #img{
@@ -26,39 +16,74 @@
     object-fit: cover;
 }
 
-a{
+.aa{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     color: aliceblue;
+    float: left;
+    background-color: black;
 }
 
+.aa:hover:not(.active) {
+    background-color: #f50f0f;
+    color: white;
+  }
+  
+
 .nav{
-    background-color: #003049;
-    color: aliceblue;
-    text-decoration: none;
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
 
 #home{
-    background-color: #003049;
-    color: white;
+    background-color: black;
+    color: aliceblue;
     position: relative;
-    bottom: 22px;
+    bottom: 25px;
 }
 
-#linkedin{
-    height: 5%;
+
+#skills{
+    background-color: #F9E8D4;
 }
 
-#github{
-    height: 5%;
-    
+#academics{
+    background-color: #F9E8D4;
+}
+
+#internships{
+    background-color: #F9E8D4;
+}
+
+#projects{
+    background-color: #e0e1dd;
 }
 
 #contacts{
-    background-color: blue;
+    background-color: #e0e1dd;
 }
 
 footer{
     height: 50px;
     display: flex;
     justify-content: space-evenly;
+    background-color: #F9E8D4;
+    align-items: center;
+    font-size: 2.2rem;
+}
+
+button{
+    color: whitesmoke;
+    border-radius: 9%;
+    background-color: #f50f0f;
+}
+.container1{
+    background-color: #F9E8D4;
+    position: relative;
+    bottom: 44px;
 }
