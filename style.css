@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+}
+
 #pic{
     height: 35vh;
     width: 100%;
@@ -29,15 +37,11 @@
 .aa:hover:not(.active) {
     background-color: #f50f0f;
     color: white;
-  }
-  
+  }  
 
-.nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
+.navigation{
+    position: fixed;
+    /* top: 10px; */
 }
 
 #home{
@@ -60,16 +64,21 @@
     background-color: #F9E8D4;
 }
 
-#projects{
-    background-color: #e0e1dd;
+.container1{
+    background-color: #F9E8D4;
+    position: relative;
+    bottom: 44px;
 }
 
-#contacts{
+.container{
     background-color: #e0e1dd;
+    position: relative;
+    bottom: 64px;
 }
 
 footer{
-    height: 50px;
+    /* bottom: 65px; */
+    /* position: relative; */
     display: flex;
     justify-content: space-evenly;
     background-color: #F9E8D4;
@@ -79,11 +88,7 @@ footer{
 
 button{
     color: whitesmoke;
-    border-radius: 9%;
+    border-radius: 8%;
+    height: 2rem;
     background-color: #f50f0f;
-}
-.container1{
-    background-color: #F9E8D4;
-    position: relative;
-    bottom: 44px;
 }
