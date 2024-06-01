@@ -64,16 +64,16 @@ body{
     border-radius: 5px;
 }
 
+.progress{
+    color: black;
+}
+
 #academics{
     width: 250px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
 }
-
-/* .intern{
-    background-color: #F9E8D4;   
-} */
 
 #internships{
     background-color: #F9E8D4;
@@ -88,6 +88,13 @@ body{
 
 .container{
     background-color: #e0e1dd;
+}
+
+#contacts{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 footer{
