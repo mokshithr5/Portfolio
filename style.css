@@ -10,6 +10,10 @@ body{
     text-align: center;
 }
 
+.margin{
+    margin: 10px;
+}
+
 #pic{
     height: 35vh;
     width: 100%;
@@ -57,7 +61,7 @@ body{
 }
 
 
-#skills{
+.skills{
     width: 250px;
     padding: 10px;
     border: 1px solid black;
@@ -68,7 +72,7 @@ body{
     color: black;
 }
 
-#academics{
+.academics{
     width: 250px;
     padding: 10px;
     border: 1px solid black;
@@ -90,11 +94,18 @@ body{
     background-color: #e0e1dd;
 }
 
-#contacts{
+.contacts{
     width: 250px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#query{
+    /* display: block;
+    font-size: large; */
 }
 
 footer{
