@@ -11,7 +11,15 @@ body{
 }
 
 .margin{
-    margin: 10px;
+    margin: 13px;
+}
+
+.l{
+    line-height: 22px;
+}
+
+.p{
+    padding-left: 15px;
 }
 
 #pic{
