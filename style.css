@@ -11,7 +11,7 @@ body{
 }
 
 .margin{
-    margin: 13px;
+    margin: 15px;
 }
 
 .l{
@@ -39,18 +39,15 @@ body{
     border-radius: 50%;
     object-fit: cover;
 }
-
 .aa{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: aliceblue;
-    float: left;
-    background-color: black;
+    width: 15em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.aa:hover:not(.active) {
+.aa:hover{
     background-color: #f50f0f;
     color: white;
   }  
@@ -60,14 +57,16 @@ body{
 }
 
 .navigation{
-    position: fixed;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
 }
 
 #home{
     background-color: black;
     color: aliceblue;
 }
-
 
 .skills{
     width: 250px;
@@ -76,9 +75,10 @@ body{
     border-radius: 5px;
 }
 
-.progress{
-    color: black;
-}
+/* .skills:hover{
+    border-color: #f50f0f;
+    border-width: 2px;
+} */
 
 .academics{
     width: 250px;
@@ -86,6 +86,11 @@ body{
     border: 1px solid black;
     border-radius: 5px;
 }
+
+/* .academics:hover{
+    border-color: #f50f0f;
+    border-width: 2px;
+} */
 
 #internships{
     background-color: #F9E8D4;
@@ -97,9 +102,10 @@ body{
     background-color: #F9E8D4;
 }
 
-
 .container{
     background-color: #e0e1dd;
+    padding: 15px;
+    margin: 0;
 }
 
 .contacts{

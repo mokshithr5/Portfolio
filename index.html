@@ -9,18 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="navigation">
-        <div class="nav">
-            <a class="aa" href="#home">Home</a>
-            <a class="aa" href="#skills">Skills</a>
-            <a class="aa" href="#academics">Academics</a>
-            <a class="aa" href="#internships">Internships</a>
-            <a class="aa" href="#projects">Projects</a>
-            <a class="aa" href="#contacts">Contact Me</a>
+    <header>
+        <div class="navigation">
+                <a class="aa" href="#home">Home</a>
+                <a class="aa" href="#skills">Skills</a>
+                <a class="aa" href="#academics">Academics</a>
+                <a class="aa" href="#internships">Internships</a>
+                <a class="aa" href="#projects">Projects</a>
+                <a class="aa" href="#contacts">Contact Me</a>
         </div>
-    </div>
-    
+    </header>
+        
     <div id="pic">
         <img id="img" src="Mokshith photo.jpg"/>
     </div>
@@ -92,7 +91,7 @@
     <div class="container">
         <div id="projects">
             <h1 class="h ">Projects</h1>
-            <h3 class="l p"><strong>Disease and Drug prediction using machine learning Algorithms</strong></h3>
+            <h3 class="l "><strong>Disease and Drug prediction using machine learning Algorithms</strong></h3>
             <ul>
                 <li class="l" >Involved in developing the front-end web framework designed specifically for the web interface.</li>
                 <li class="l">This platform allows users to input symptoms, predict potential diseases, and recommend appropriate medications based on the input.</li>
@@ -110,9 +109,9 @@
                 <input type="text">
                 <br><br>
                 <label id="query">Query</label>
-                <input type="text">
+                <input type="text" id="myText" >
                 <br><br>
-                <button id="button">SEND MESSAGE</button>
+                <button id="myButton">SEND MESSAGE</button>
             </form>
             <br><br>
         </div>
@@ -132,6 +131,6 @@
         </a>
         </div>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
