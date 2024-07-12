@@ -139,6 +139,12 @@ button{
     color: whitesmoke;
     border-radius: 5px;
     height: 2rem;
-    background-color: #f0311f;
+    background-color: #472147;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: beige;
+    color: #472147;
+
 }
