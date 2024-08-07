@@ -143,7 +143,6 @@ button:hover{
 
 @keyframes anime {
     to{
-        height: 350px;
         width: 275px;
         padding: 20px;
         border: 1px solid black;
