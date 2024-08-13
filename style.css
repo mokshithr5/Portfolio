@@ -21,6 +21,7 @@ input{
 
 .p{
     padding-left: 15px;
+    max-width: 90%;
 }
 
 #pic{
@@ -51,7 +52,13 @@ input{
 .aa:hover{
     background-color: #f50f0f;
     color: white;
-  }  
+}  
+
+.home{
+    background-color: black;
+    color: aliceblue;
+    padding: 0 1rem;
+}
 
 .bb:hover{
     animation :anime 3s infinite ease-in-out alternate 3s;
@@ -62,12 +69,6 @@ input{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-}
-
-#home{
-    background-color: black;
-    color: aliceblue;
-    padding: 0 1rem;
 }
 
 .skills{
